@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=0" />
+    <title>Movie Library</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div style="position: sticky; top: 0px;">
+            <div class="sidebar">
+                <div class="logo">Movie List</div>
+                <h2 class="sidebar__title">Genres</h2>
+                <a class="genre" href="#">
+                    <div class="genre__item">All</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Action</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Adventure</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Animation</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Comedy</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Crime</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Documentary</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Drama</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Family</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Fantasy</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">History</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Horror</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Music</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Mystery</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Romance</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Science Fiction</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">TV Movie</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Thriller</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">War</div>
+                </a>
+                <a class="genre" href="#">
+                    <div class="genre__item">Western</div>
+                </a>
+            </div>
+        </div>
+        <div class="search">
+            <form class="search__form">
+                <button type="submit" class="search__button">
+                    <svg aria-hidden="true"
+                        focusable="false" data-prefix="fas" data-icon="search"
+                        class="svg-inline--fa fa-search fa-w-16 fa-1x " role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path fill="currentColor"
+                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                        </path>
+                    </svg>
+                </button>
+                <input placeholder="Search for a movie..." class="search__input" value="">
+            </form>
+        </div>
+        <div class="content">
+            <div class="content__inner">
+                <div class="content__title">
+                    <h1>All</h1>
+                    <h2>movies</h2>
+                </div>
+                <div class="movies films">
+                    <!-- <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <img src="img/peYRpielBbRHMGNYJnWyCsG7apA.jpg" class="movie__poster">
+                        <div class="movie__info">
+                            <h2 class="movie__title">Queen Bees</h2>
+                            <h3 class="movie__genre">Romance, Comedy</h3>
+                            <button class="movie__btn" type="button" data-id="553592">Add to watchlist</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="watchlist.html" class="watchlist">W</a>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
